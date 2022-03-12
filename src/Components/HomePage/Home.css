@@ -1,0 +1,159 @@
+body{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.topNav{
+
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 16vh;
+    max-width: 100vw;
+    /* border: 2px solid black; */
+    background: #ffffff;
+    
+}
+
+.list1{
+
+    position: absolute;
+    top: 3vh;
+    left: 63vw;
+    list-style: none;
+    height: 5vh;
+    width: 28vw;
+    /* border: 2px solid black;  */
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    font-size: 0.8em;
+}
+
+.list2{
+
+    color: rgb(51, 51, 51);
+    text-decoration: none;
+    position: relative;
+
+}
+
+.homeIcon1{
+
+    position: absolute;
+    top: 5vh;
+    left: 96vw;
+    /* border: 2px solid black; */
+    height: 5vh;
+    width: 2vw;
+}
+
+.iconEdit1{
+
+    font-size: 0.8em;
+    color: rgb(51,51,51);
+    position: relative;
+    top: 23%;
+    left: 25%;
+    cursor: pointer;
+}
+
+.mainLogo{
+
+    position: absolute;
+    top: 5vh;
+    left: 40vw;
+    height: 6vh;
+    width: 10vw;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.homeIcon2{
+
+    position: absolute;
+    top: 5vh;
+    left: 2vw;
+    /* border: 2px solid black; */
+    height: 5vh;
+    width: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconEdit2{
+
+    font-size: 1.1em;
+    color: rgb(51,51,51);
+    cursor: pointer;
+    /* position: relative; */
+    /* top: 23%; */
+    /* left: 25%; */
+}
+
+.homeDrop1{
+
+    position: absolute;
+    top: 10vh;
+    left: -2vw;
+    height: 20vh;
+    width: 26vw;
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: auto auto;
+    visibility: hidden;
+    transition: all 0.34s;
+    z-index: 10;
+    color: #000;
+    background: #ffffff;
+
+}
+
+.homeDrop2{
+
+    position: absolute;
+    top: 10vh;
+    left: -6vw;
+    height: 20vh;
+    width: 26vw;
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: auto auto;
+    visibility: hidden;
+    transition: all 0.34s;
+    z-index: 10;
+    color: #000;
+    background: #ffffff;
+
+}
+
+.homeGrid1{
+
+    border: 1px solid rgba(219, 217, 217, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(51,51,51);
+}
+
+.list2:hover .homeDrop1{
+
+    visibility: visible;
+    z-index: 10;
+}
+
+.list2:hover .homeDrop2{
+
+    visibility: visible;
+    z-index: 10;
+}
+
